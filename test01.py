@@ -1,1 +1,3 @@
-print("第一次提交python文件")
+from redis import Redis
+
+redis_conn = Redis()
